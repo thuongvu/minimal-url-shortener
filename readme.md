@@ -1,9 +1,9 @@
 # Minimal url shortener
 
 ## Installation
-Install redis.
+Install [redis](http://redis.io/download).
 Run `redis-server`.
-Clone this repo.
+[Clone this repo](git@github.com:thuongvu/minimal-url-shortener.git).
 Run `npm install`.
 Run `node index.js`.
 
@@ -23,7 +23,8 @@ Output:
 ```
 
 GET /:id redirects the user to the specified url
-Input
+
+Input:
 ```
 curl -Ls -o /dev/null -w %{url_effective} http://localhost:5000/NyMomLf7g
 ```
