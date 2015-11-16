@@ -20,7 +20,6 @@ curl -X POST -H "Content-Type: application/json" -d '{"url": "http://github.com"
 Output:
 ```
 {"id":"E1zT2UMXl", url: "http://localhost/E1zT2UMXl"}
-curl http://localhost:5000/E1zT2UMXl
 ```
 
 GET /:id redirects the user to the specified url
